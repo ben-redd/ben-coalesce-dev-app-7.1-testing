@@ -1,0 +1,140 @@
+fileVersion: 1
+id: 4d1fd4f6-179e-496d-8ebc-2be3bb91a097
+name: CUSTOMER
+operation:
+  database: ""
+  dataset: ""
+  deployEnabled: true
+  description: ""
+  locationName: SAMPLE
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 64acccfe-a755-49a3-8def-a27eb3985078
+          stepCounter: 4d1fd4f6-179e-496d-8ebc-2be3bb91a097
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: SF*150,000 are populated
+        name: C_CUSTKEY
+        nullable: false
+        primaryKey: false
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6689a302-2bc9-4a50-9237-ce74384e7189
+          stepCounter: 4d1fd4f6-179e-496d-8ebc-2be3bb91a097
+        config: {}
+        dataType: VARCHAR(25)
+        defaultValue: ""
+        description: ""
+        name: C_NAME
+        nullable: false
+        primaryKey: false
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0bb357d2-38bc-42dd-8d8a-defbd31f9f23
+          stepCounter: 4d1fd4f6-179e-496d-8ebc-2be3bb91a097
+        config: {}
+        dataType: VARCHAR(40)
+        defaultValue: ""
+        description: ""
+        name: C_ADDRESS
+        nullable: false
+        primaryKey: false
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8484d083-7d5a-4ffb-b5ef-33fc385d6084
+          stepCounter: 4d1fd4f6-179e-496d-8ebc-2be3bb91a097
+        config: {}
+        dataType: NUMBER(38,0)
+        defaultValue: ""
+        description: Foreign Key to N_NATIONKEY
+        name: C_NATIONKEY
+        nullable: false
+        primaryKey: false
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 89504288-42fe-49df-8f9d-909e92c87932
+          stepCounter: 4d1fd4f6-179e-496d-8ebc-2be3bb91a097
+        config: {}
+        dataType: VARCHAR(15)
+        defaultValue: ""
+        description: ""
+        name: C_PHONE
+        nullable: false
+        primaryKey: false
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 535ebcf4-4164-4450-b383-eddf9939d7b9
+          stepCounter: 4d1fd4f6-179e-496d-8ebc-2be3bb91a097
+        config: {}
+        dataType: NUMBER(12,2)
+        defaultValue: ""
+        description: ""
+        name: C_ACCTBAL
+        nullable: false
+        primaryKey: false
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 65c076a0-e0eb-4936-84dd-ca29b15fef7a
+          stepCounter: 4d1fd4f6-179e-496d-8ebc-2be3bb91a097
+        config: {}
+        dataType: VARCHAR(10)
+        defaultValue: ""
+        description: ""
+        name: C_MKTSEGMENT
+        nullable: true
+        primaryKey: false
+        uniqueKey: false
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a4bebefa-1423-415c-8097-a9da569eea3c
+          stepCounter: 4d1fd4f6-179e-496d-8ebc-2be3bb91a097
+        config: {}
+        dataType: VARCHAR(117)
+        defaultValue: ""
+        description: ""
+        name: C_COMMENT
+        nullable: true
+        primaryKey: false
+        uniqueKey: false
+    join:
+      joinCondition: FROM {{ ref('SAMPLE', 'CUSTOMER') }}
+  name: CUSTOMER
+  schema: ""
+  sqlType: Source
+  table: CUSTOMER
+  type: sourceInput
+  version: 1
+type: Node

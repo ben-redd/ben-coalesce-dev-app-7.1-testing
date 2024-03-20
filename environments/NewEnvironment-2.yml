@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "2"
+mappingDefinitions:
+  SAMPLE:
+    database: COALESCE_SAMPLE_DATABASE
+    schema: TPCH_SF001
+  WORK:
+    database: BEN_EDW
+    schema: DEV_7.1_ORG2_ENV
+name: New Environment
+type: Environment
