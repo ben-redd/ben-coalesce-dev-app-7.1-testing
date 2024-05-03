@@ -1,0 +1,13 @@
+config:
+  entities:
+    nodeTypes:
+      "53":
+        defaultStorageLocation: null
+        isDisabled: false
+  packageVariables: ""
+fileVersion: 1
+id: "@coalesce/package-udn-9551"
+name: Package-UDN-9551
+packageID: "@coalesce/package-udn-9551"
+releaseID: 1f1a021c-ee1e-4588-b660-b583806d5c73
+type: Package
