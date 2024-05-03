@@ -62,7 +62,7 @@ operation:
         dataType: VARCHAR(25)
         description: ""
         name: C_NAME
-        nullable: false
+        nullable: true
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: 3350c0a6-6392-4904-b551-3734757c38f9
@@ -76,7 +76,7 @@ operation:
         dataType: VARCHAR(40)
         description: ""
         name: C_ADDRESS
-        nullable: false
+        nullable: true
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: 3439c515-4aa3-4dd1-8b24-af2dc7eb2567
@@ -104,7 +104,7 @@ operation:
         dataType: VARCHAR(15)
         description: ""
         name: C_PHONE
-        nullable: false
+        nullable: true
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: 5157c375-624a-4223-84da-c24c099945c1
@@ -118,7 +118,7 @@ operation:
         dataType: NUMBER(12,2)
         description: ""
         name: C_ACCTBAL
-        nullable: false
+        nullable: true
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: 6e8f2a85-1420-4800-83e2-9ecbdd691ff3
